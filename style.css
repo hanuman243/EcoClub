@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+#navcontainer {
+    width: 100%;
+    background-color: #146a12;
+    min-height: 65px;
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    z-index: 100;
+
+}
+
+#logo img {
+    height: 60px;
+    width: 65px;
+    margin: 0;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-content p {
+    text-align: center;
+}
+
+#navlist {
+    height: 65px;
+    width: 100%;
+    list-style: none;
+    font-size: 15px;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+}
+
+#navitems {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: flex-end;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+nav {
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: rgba(60, 87, 87, 0.933);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+
+#navlogo {
+    font-size: 2.3rem;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+}
+
+.contentbox {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    color: white;
+    padding-top: 88px;
+    padding-bottom: 44px;
+}
+
+.contentbox h1 {
+    font-size: 44px;
+    margin: 20px 0px 36px;
+    height: 100px;
+    width: 404px;
+    line-height: 40px;
+    ;
+}
+
+.contentbox p {
+    font-size: 20px;
+    margin: 32px 0px 74px;
+}
+
+.contentbox button {
+    width: 164.69px;
+    height: 52px;
+    font-size: 18px;
+    /* padding:16px 44px; */
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 55px;
+    border: none;
+    transition: 0.3s;
+}
+
+.contentbox button:hover {
+    transform: scale(1.1);
+    /* color: rgba(60, 87, 87, 0.933); */
+}
+
+#blogs h2 {
+    height: 50px;
+    /* width: 1292px; */
+    font-size: 44px;
+    padding-top: 35px;
+    padding-left: 65px;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-top: 44px;
+    padding-left: 70px;
+    padding-bottom: 44px;
+}
+
+
+
+.blogs div {
+    background-color: #E7E7E7;
+    border: solid black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 18px;
+    width: 298.83px;
+    height: 458px;
+
+}
+
+.blogs div img {
+    width: 268.83px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.blogs h1 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #444;
+    font-size: 24px;
+    width: 260.06px;
+    height: 32px;
+    line-height: 26px;
+    margin: 16px 0px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 18px 0px;
+}
+
+.blogs div p {
+    color: #666666;
+    margin: 10px 0px;
+    height: 72px;
+    padding: 18px 0px;
+    margin: 24px 0px;
+}
+
+.blogs button {
+    width: 128.31px;
+    height: 32px;
+    background-color: #146A12;
+    margin: 18px 0px 8px;
+    padding: 6px 22px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.blogs button:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+#activity {
+    background-color: #146a12;
+    padding: 44px;
+    color: white;
+}
+
+/* .text {
+    display: inline;
+    vertical-align: text-bottom;
+    flex-direction: column;
+
+} */
+
+#activity div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#activity img {
+    width: 468px;
+    height: 329px;
+}
+
+
+#activity h1 {
+    font-size: 44px;
+    display: block;
+}
+
+#activity p {
+    padding: 80px 0px;
+    display: block;
+    font-size: large;
+    line-height: 32px;
+    width: 824px;
+}
+
+.footer {
+    background-color: #146a12;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding: 44px;
+    height: 185px;
+}
+
+.address {
+    width: 268px;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+footer a {
+    display: block;
+    padding: 0px 0px 8px;
+}
+
+.contact {
+    text-decoration: underline;
+}
